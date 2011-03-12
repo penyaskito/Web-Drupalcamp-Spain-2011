@@ -1,0 +1,102 @@
+body{margin:0;padding:0;background:#006783;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;line-height:1.6em;font-size:80%;color:#000}
+strong{font-weight:bold;color:#096185;}
+a{color:#006783;}	
+a:hover{color:#4DBDD3;}
+.oculto{display:none;}
+h3{color:#006783;}
+/*input, textarea{font-size:0.9em;padding:5px;background:#75B1BF;border:1px solid #006783;}*/
+input, textarea {-moz-border-radius:8px 8px 8px 8px;background-color:#75B1BF;border:medium none;font-family:Arial,Helvetica,sans-serif;
+font-size:1em;
+font-weight:bold;
+margin-bottom:20px;
+padding:10px;
+}
+html.js input.form-autocomplete{padding:4px;}
+.form-submit{background:#006783;font-style:normal;padding:5px;color:#fff;border:1px solid #fff;}
+#wrap{background:#fff url(../img/fondo-pie.png) repeat-x center bottom;float:left;width:100%;padding-bottom:20px;}
+.contenedor{margin:0 auto;padding:0px;width:970px;}
+#cabecera{height:150px;background:#FFF;}
+.encabezado{float:right;width:600px;}
+#centro{height:150px;background:#006783 url(../img/cabecera_des.png) no-repeat center bottom;margin-bottom:30px;}
+#centro-front{height:250px;background:#006783 url(../img/cabecera_des.png) no-repeat center bottom;margin-bot
+tom:30px;}
+body.inicio #centro, body.izquierda #centro{height:250px;}
+#cuerpo{/*min-height:500px;  height:auto !important;  height:500px;*/padding-bottom:20px;}
+#cuerpo .title{color:#74878A;font-size:2em;padding-bottom:15px;}
+#right-sidebar .title{font-size:1.5em;}
+#cabecera a{text-decoration:none;}
+.menulogin{background:#006783;float:right;height:28px;padding-right:0;text-align:center;}
+
+.view-display-id-page_1 .views-field-picture {
+	text-align: center;
+	margin: 0px;
+}
+.menulogin a{color:#fff;font-size:0.9em;}
+.menulogin a:hover, .menulogin a.active{color:#FEC900;}
+.menuprincipal{float:right;height:60px}
+.menuprincipal ul.links li{display:block;float:left;height:55px;text-align:center;margin-right:10px;}
+.menuprincipal ul.links li:hover, .menuprincipal ul.links li.active{background:transparent url(../img/boton.png) no-repeat center bottom;color:#4DBDD3;}
+.menuprincipal a{font-size:1.4em;color:#000;display:block;height:55px;}
+.menuprincipal a:hover, .menuprincipal a.active{color:#006783;}
+img.logo{float:left;margin-top:15px;/*width:380px;*/}
+#pie{color:#fff;float:left;width:100%;}
+#pie .contenedor{background:transparent url(../img/pie.png) no-repeat right 15px;min-height:250px;  height:auto !important;  height:250px;}
+.pie_izq{width:280px;float:left;}
+.pie_der{width:430px;float:left;padding-left:30px;}
+.texto_pie{float:right;font-size:0.75em;}
+.texto_pie a{color:#fff;}
+#pie .title{color:#75B1BF;font-size:1.5em;}
+.columnas{float:left;width:100%;margin-top:20px;}
+#page{border-right:1px dashed;float:left;padding-right:15px;width:700px;}
+#right-sidebar{width:240px;float:right;}
+body.centro #page{width:100%;padding-right:0;border:none;}
+#block-block-1{left:490px;position:relative;width:440px;top:30px;}
+body.izquierda #page{width:530px;padding:0 0 0 20px;border-left:1px dashed;border-right:none;}
+#left-sidebar{width:400px;float:left;}
+#total_preregistros{font-size:3em;padding-left:1em;}
+.view-drupalcamp-tickets h3{font-size:1.2em;font-weight:bold;border-bottom:2px solid;}
+.view-drupalcamp-tickets .item-list ul li {list-style-image:none;list-style-position:outside;list-style-type:none;margin:0 0 0.25em 0.5em;padding:0;}
+.view-drupalcamp-tickets .views-field-body .field-content{background:#DAE9EC;padding:5px;margin:10px 0 10px 0;}
+input.node-add-to-cart{background:transparent url(../img/boton-apunto.png) center -1px; width:80px;height:31px;}
+.error {color:#FFFFFF;}
+p {margin-bottom: 10px;}
+h3 {font-size: 1.4em;margin-bottom: 10px;padding-top: 15px;}
+ol {list-style-type: decimal;color:#000;}
+ol li{padding-bottom:10px;}
+#block-block-17, #block-block-16{float:right;}
+body.simpatizantes #page .view-attendees td {height:120px;}
+body.simpatizantes th, body.simpatizantes td {border:none;}
+
+/* crincon - Modificaciones para juitter */
+body.drupalcampspain-en-twitter #page {
+	width: 99%;
+	border-right: none;
+	position: relative;
+	top: -70px;
+}
+
+body.drupalcampspain-en-twitter #juitterTabsWrapper {
+	display: none;
+}
+
+body.drupalcampspain-en-twitter #juitterContainer {
+	font-size: 1.6em;
+}
+
+body.drupalcampspain-en-twitter #juitter-main-wrapper {
+	clear: both;
+}
+
+body.drupalcampspain-en-twitter #juitterContainer .twittLI {
+	height: auto;
+	line-height: 1.6em;
+	padding: 10px 0;
+}
+
+body.drupalcampspain-en-twitter #cuerpo .title {
+	float: right;
+}
+
+body.drupalcampspain-en-twitter #juitterContainer .twittList a {
+	color: #006783;
+}
