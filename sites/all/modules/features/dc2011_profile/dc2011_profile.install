@@ -1,0 +1,43 @@
+<?php
+
+function dc2011_profile_install() {
+   include_once(drupal_get_path('module', 'profile') . '/profile.admin.inc');
+  
+   $field = array(
+	'category' => 'Perfil de usuario',
+   	'title' => 'Bio',
+   	'name' => 'profile_bio',
+	'visibility' => '2',
+   	'weight' => '-1',
+   	'autocomplete' => '0',
+   	'required' => '0',
+   	'register' => '0',
+   );
+   _dc2011_profile_add_profile_field($field, 'textarea');
+
+
+   $field = array(
+      'category' => 'Perfil',
+      'title' => 'Años de experiencia con Drupal',
+      'name' => 'profile_experience',
+      'visibility' => 2,
+      'weight' => 3,
+      'autocomplete' => 0,
+      'required' => 0,
+      'register' => 0,
+   );
+   _dc2011_profile_add_profile_field($field, 'textfield'); 
+}
+
+function _dc2011_profile_add_profile_field($values, $type = 'textfield') {
+   include_once(drupal_get_path('module', 'profile') . '/profile.admin.inc');
+   
+   $form_id = 'profile_field_form';
+   $form_state = array();
+   $form_state['values'] = $array;
+   $form_state['values']['op'] = 'Save field';
+   
+   drupal_execute($form_id, $form_state, $type);
+}
+
+?>

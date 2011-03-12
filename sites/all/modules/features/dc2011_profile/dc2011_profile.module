@@ -1,0 +1,3 @@
+<?php
+
+include_once('dc2011_profile.features.inc');
