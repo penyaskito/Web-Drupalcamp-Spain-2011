@@ -33,7 +33,7 @@ body.inicio #centro, body.izquierda #centro{height:250px;}
 }
 .menulogin a{color:#fff;font-size:0.9em;}
 .menulogin a:hover, .menulogin a.active{color:#FEC900;}
-.menuprincipal{float:right;height:60px}
+.menuprincipal{float:right;height:60px;margin-top:90px}
 .menuprincipal ul.links li{display:block;float:left;height:55px;text-align:center;margin-right:10px;}
 .menuprincipal ul.links li:hover, .menuprincipal ul.links li.active{background:transparent url(../img/boton.png) no-repeat center bottom;color:#4DBDD3;}
 .menuprincipal a{font-size:1.4em;color:#000;display:block;height:55px;}
