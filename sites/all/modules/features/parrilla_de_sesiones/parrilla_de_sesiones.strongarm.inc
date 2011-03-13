@@ -19,13 +19,13 @@ function parrilla_de_sesiones_strongarm() {
   $strongarm->value = array(
     'room' => 'room',
     'schedule_item' => 'schedule_item',
+    'sponsor' => 'sponsor',
     'time_slot' => 'time_slot',
     'event' => 0,
     'logo' => 0,
     'news' => 0,
     'product' => 0,
     'session' => 0,
-    'sponsor' => 0,
   );
 
   $export['uuid_automatic_for_nodes'] = $strongarm;
