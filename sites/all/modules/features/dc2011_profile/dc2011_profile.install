@@ -5,10 +5,24 @@ function dc2011_profile_install() {
   
    $field = array(
 	'category' => 'Perfil de usuario',
+   	'title' => 'Empresa',
+   	'name' => 'profile_company',
+	'description' => 'Empresa u organización donde desarrollas tu actividad con Drupal',
+	'visibility' => '2',
+   	'weight' => '15',
+   	'autocomplete' => '0',
+   	'required' => '0',
+   	'register' => '0',
+   );
+   _dc2011_profile_add_profile_field($field, 'textarea');
+
+   $field = array(
+	'category' => 'Perfil de usuario',
    	'title' => 'Bio',
    	'name' => 'profile_bio',
+	'description' => 'Háblanos de ti: quién eres, a qué te dedicas, por qué te interesa la Drupalcamp...',
 	'visibility' => '2',
-   	'weight' => '-1',
+   	'weight' => '10',
    	'autocomplete' => '0',
    	'required' => '0',
    	'register' => '0',
@@ -20,8 +34,9 @@ function dc2011_profile_install() {
       'category' => 'Perfil',
       'title' => 'Años de experiencia con Drupal',
       'name' => 'profile_experience',
+      'description' => 'Cuantos años de experiencia trabajando con Drupal',
       'visibility' => 2,
-      'weight' => 3,
+      'weight' => '20',
       'autocomplete' => 0,
       'required' => 0,
       'register' => 0,
