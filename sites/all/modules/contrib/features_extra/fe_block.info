@@ -1,0 +1,16 @@
+; $Id: fe_block.info,v 1.1.2.1 2009/12/01 11:16:46 makara Exp $
+name = "FE block"
+description = "Build blocks and block settings as features."
+package = "Features extra"
+core = "6.x"
+
+dependencies[] = block
+dependencies[] = features
+dependencies[] = ctools
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "features_extra"
+datestamp = "1295525713"
+

@@ -1,0 +1,16 @@
+; $Id: fe_taxonomy.info,v 1.1 2009/12/01 09:00:18 makara Exp $
+name = "FE taxonomy"
+description = "Build taxonomies as features."
+package = "Features extra"
+core = "6.x"
+
+dependencies[] = taxonomy
+dependencies[] = features
+dependencies[] = ctools
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "features_extra"
+datestamp = "1295525713"
+
