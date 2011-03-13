@@ -1,0 +1,13 @@
+; $Id: profile_pictures.info,v 1.4 2010/08/20 19:34:15 yeputons Exp $
+name = Profile pictures
+description = Add image field to a core profile's categories. Integrates with Token module (custom file saving paths) and ImageCache module.
+core = 6.x
+
+dependencies[] = profile
+
+; Information added by drupal.org packaging script on 2010-08-26
+version = "6.x-1.3"
+core = "6.x"
+project = "profile_pictures"
+datestamp = "1282807607"
+
