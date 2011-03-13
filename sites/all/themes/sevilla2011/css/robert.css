@@ -1,0 +1,38 @@
+.view-display-id-page_7 .views-field-value-1 label,
+.view-display-id-page_7 .views-field-name label,
+.view-display-id-page_7 .views-field-value label {
+	display: none;
+}
+
+.view-display-id-page_7 a {
+	text-decoration: none;
+}
+
+.view-display-id-page_7 div{
+	text-align: left;
+}
+
+.view-display-id-page_7 .views-field-value-1 .field-content {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.view-display-id-page_7 .views-field-value .field-content {
+	text-transform: uppercase;
+}
+
+.view-display-id-page_7 .views-field-value,
+.view-display-id-page_7 .views-field-value-1 {
+}
+
+#page .view-display-id-page_7 .views-view-grid td {
+	background: url(../img/tarjeta.png) no-repeat;
+	
+	width: 487px;
+	height: 322px;
+	padding: 0 0 0 15px;
+}
+
+.view-display-id-page_7 .views-field-value-1 {
+	margin-top: 60px;
+}
