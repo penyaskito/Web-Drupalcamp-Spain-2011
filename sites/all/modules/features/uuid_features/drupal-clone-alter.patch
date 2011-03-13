@@ -1,0 +1,17 @@
+? drupal-clone-alter.patch
+Index: includes/uuid_node.features.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/uuid_features/includes/uuid_node.features.inc,v
+retrieving revision 1.1.2.3
+diff -u -p -r1.1.2.3 uuid_node.features.inc
+--- includes/uuid_node.features.inc	7 Jan 2011 20:31:53 -0000	1.1.2.3
++++ includes/uuid_node.features.inc	13 Feb 2011 14:00:05 -0000
+@@ -70,7 +70,7 @@ function uuid_node_features_export_rende
+     if (!empty($node->path)) {
+       $node->pathauto_perform_alias = FALSE;
+     }
+-    $export = $node;
++    $export = drupal_clone($node);
+ 
+     // Use date instead of created, in the same format used by node_object_prepare.
+     $export->date = format_date($export->created, 'custom', 'Y-m-d H:i:s O');
